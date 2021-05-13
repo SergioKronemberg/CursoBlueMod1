@@ -4,4 +4,4 @@ def somaImposto(custo, taxa_imposto=10):
 
 #t = float(input("insira porcentagem"))
 x = float(input("insira custo"))
-print(somaImposto())
+print(somaImposto(x))
