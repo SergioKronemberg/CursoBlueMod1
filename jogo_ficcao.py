@@ -1,13 +1,3 @@
-# Integrantes do grupo:
-# Sergio
-# Rosicleia Furst
-# Lucas Castorino
-
-# A ideia inicial era fazer pequenas alterações no programa incluindo alguns eventos aleatórios.
-# Ao decorrer do desenvolvimento mudamos a ideia para criar um labirinto onde o personagem tem que vencer um minotauro para escapar.
-# Fomos discutindo e juntando ideias enquanto faziamos o código para o jogo.
-# Aplicamos praticamente tudo o que foi visto no curso para o desenvolvimento.
-
 # Importando funções
 from random import randint
 from time import sleep
@@ -47,9 +37,6 @@ class Personagem:
         self.pontaria = 10
         self.agilidade = 10
         self.dinheiro = 1000
-
-
-
 
     def __str__(self):
         return " Você é um herói, mas antes de salvar o mundo você " \
